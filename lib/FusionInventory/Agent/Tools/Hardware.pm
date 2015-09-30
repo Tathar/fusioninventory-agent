@@ -231,27 +231,34 @@ my %printer_pagecounters_variables = (
     COLOR      => {
         oid   => '.1.3.6.1.4.1.1347.42.2.1.1.1.8.1.1' #Kyocera specific counter
     },
-    RECTOVERSO => { },
+    RECTOVERSO => {
+        oid   => '.1.3.6.1.4.1.18334.1.1.1.5.7.2.1.3.0' #Konica Minolta specific counter
+    },
     SCANNED    => {
         oid   => '.1.3.6.1.4.1.1347.46.10.1.1.5.3' #Kyocera specific counter ( total scan counter)
+        oid   => '.1.3.6.1.4.1.18334.1.1.1.5.7.2.3.1.5.1' #Konica Minolta specific counter
     },
     PRINTTOTAL => {
         oid   => '.1.3.6.1.4.1.1347.42.3.1.1.1.1.2' #Kyocera specific counter
     },
     PRINTBLACK => {
         oid   => '.1.3.6.1.4.1.1347.42.3.1.2.1.1.1.1' #Kyocera specific counter
+        oid   => '.1.3.6.1.4.1.18334.1.1.1.5.7.2.2.1.5.1.2' #Konica Minolta specific counter
     },
     PRINTCOLOR => {
         oid   => '.1.3.6.1.4.1.1347.42.3.1.2.1.1.1.2' #Kyocera specific counter
+        oid   => '.1.3.6.1.4.1.18334.1.1.1.5.7.2.2.1.5.2.2' #Konica Minolta specific counter
     },
     COPYTOTAL  => {
         oid   => '.1.3.6.1.4.1.1347.42.3.1.1.1.1.2' #Kyocera specific counter
     },
     COPYBLACK  => {
         oid   => '.1.3.6.1.4.1.1347.42.3.1.2.1.1.2.1' #Kyocera specific counter
+        oid   => '.1.3.6.1.4.1.18334.1.1.1.5.7.2.2.1.5.1.1' #Konica Minolta specific counter
     },
     COPYCOLOR  => {
         oid   => '.1.3.6.1.4.1.1347.42.3.1.2.1.1.2.2' #Kyocera specific counter
+        oid   => '.1.3.6.1.4.1.18334.1.1.1.5.7.2.2.1.5.2.1' #Konica Minolta specific counter
     },
     FAXTOTAL   => {
         oid   => '.1.3.6.1.4.1.1347.42.3.1.1.1.1.4'  #Kyocera specific counter
